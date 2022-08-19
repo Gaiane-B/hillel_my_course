@@ -5,5 +5,6 @@ print(fractional_part[1])
 
 
 # First number after dot
+
 number = float(input())
 print(int(number * 10) % 10)

@@ -5,8 +5,6 @@ now = datetime.datetime.now().date()
 emoji = '\U0001F947'
 URL = 'https://script.google.com/macros/s/AKfycbxgEsflPph1UiTe-PWbhWkNCK4hNsgRKsITJMS_kClHeF_kY7um92g0L6Ex7ox7wnWa/exec'
 
-###
-
 
 # Return valid length string
 def valid_length_string(my_string: str, length: int = 150):
@@ -48,9 +46,6 @@ def get_data_from_url(my_url: str = None) -> dict:
     response = requests.get(my_url)
     data = response.json()
     return data
-
-
-###
 
 
 # Function check students scores
@@ -120,7 +115,7 @@ def create_string(data):
     return data
 
 
-###
+# Function add the "message" element in list
 def text_to_dict(data):
     """
     data: get a list of dictionaries, from which we select the "message" element and add it to a separate list
@@ -133,7 +128,7 @@ def text_to_dict(data):
     return new_list
 
 
-#
+# Function write text in file
 def add_to_file(data):
     """
     Function writes received text in file

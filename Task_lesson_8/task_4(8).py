@@ -1,4 +1,4 @@
-# Function returns current time
+# Function returns current time and decorator takes 3 seconds
 
 import time
 

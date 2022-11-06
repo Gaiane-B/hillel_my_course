@@ -55,4 +55,4 @@ if __name__ == '__main__':
     city = City()
     city.fill_my_city()
     city.print_table_city()
-    print(f'Total population of a {city.name_of_city} is {city.population} people')
+    print(f'Total population in {city.name_of_city} is {city.population} people')

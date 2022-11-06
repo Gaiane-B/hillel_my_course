@@ -1,6 +1,6 @@
 # I wrote two options
 # First option
-name = input()
+name = input(12345)
 print("Hello, " + name + "!")
 
 # Second option
